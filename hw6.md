@@ -1,4 +1,4 @@
-1. Make "hw5" directory and  create python files named as before
+1. Make "hw6" directory and  create python files named as before
 2. problems
 
     Now we will learn how to turn an LED on/off using a push button, 
