@@ -15,3 +15,21 @@ The complete hardware wiring can be seen in the following figure:
 Furthermore, you can write a Python program to read the push button's state. If you 
 press the push button, the program will turn on the LED. Otherwise, it will turn off 
 the LED. 
+# Code for turning the LED on/off using a push button
+import RPi.GPIO as GPIO
+
+# Set up GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(23, GPIO.OUT)
+
+# Read the push button state
+button_state = GPIO.input(24)
+
+# Turn on/off the LED based on the button state
+if button_state == GPIO.HIGH:
+    GPIO.output(23, GPIO.HIGH)
+else:
+    GPIO.output(23, GPIO.LOW)
+
+# Clean up GPIO
+GPIO.cleanup()
