@@ -1,4 +1,4 @@
-1. Make "hw6" directory and create C++ program files named as before: like p1.cpp
+1. Make "hw7" directory and create C++ program files named as before: like p1.cpp
 2. problems
 
     Listing 6-14 program can be used to communicate to the AM230x/DHT family of sensors to get temperature and humidity. For human beings, there is another kind of temperature: felt air temperature. Can you compute it based on the acquired temperature and humidity from the  AM230x/DHT sensor and show them?     
